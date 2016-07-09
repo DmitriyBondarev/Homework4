@@ -1,0 +1,131 @@
+/* ------------------------- MainPage ---------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+h1{
+	display: inline;
+	font-size: 32px;
+	margin:10px;
+	vertical-align:50px;
+}
+nav {
+	font: 16px times new roman;
+	margin-left:230px;
+
+}
+body{
+	background: gray;
+}
+header, .main, footer{
+	background: white;
+	border: solid white 1px;
+	border-radius: 10px;
+	width: 850px;
+	margin:auto;
+	padding:5px;
+	list-style-type:none;
+}
+.menu li {
+	display: inline;
+}
+.submenu {
+    position: absolute;
+    display: none;
+    margin-left: 57px;
+    margin-top: -1px;
+}
+li:hover ul { 
+    display: block;
+	background:white;
+	border:solid black 2px;
+	border-radius:10px;
+	width:68px;
+	text-align:left;
+	padding:5px;
+   }
+.main {
+	font: 16px Arial;
+	text-align: justify;
+	list-style-type:none;
+}
+footer {
+	text-align:center;
+	font: 16px Times new roman, Georgia;
+}
+address a{
+	font: italic 16px Times new roman;
+}
+/* ------------------------- Web-technologies ---------------------*/
+.ulweb {
+	margin-left:40px;
+}
+dd {
+	margin-left:40px;
+}
+/* ------------------------- HTML ---------------------------------*/
+aside {
+	border:1px solid rgb(220,220,220);
+	border-radius:10px;
+	background:rgb(220,220,220);
+	padding:10px;
+	margin:10px;
+	float:right;
+	width:250px;
+	font:14px Times new roman;
+}
+h3 {
+	margin: 15px 0 15px 0;
+	font-size:18px;
+}
+h2 {
+	margin-bottom:15px;
+}
+.gotop {
+	margin-left:0;
+	font:17px Arial;
+}
+/* ------------------------- JS ---------------------------------*/
+/* ok */
+/* ------------------------- Calc -------------------------------*/
+
+table {
+	margin: 0 auto;
+	padding: 0;
+	border:0px solid blue;
+	border-collapse:collapse;
+}
+#CalcDisp {
+	width:306px;
+	height:28px;
+	margin:1px;
+	text-align:right;
+}
+button {
+	width:60px;
+	height:28px;
+	margin:1px 1px 4px 1px;
+	border: 1px solid rgb(160, 160, 160);
+	border-radius:1px;
+	font-size:16px;
+}
+td :hover {
+	background-color: rgb(190, 215, 248);
+}
+td :focus {
+	font-size:14px;
+	color: rgb(76, 130, 190);
+}
+#zero {
+	width:122px;
+}
+#result {
+	height:62px;
+}
+/* ------------------------- Test -------------------------------*/
+#resTest {
+	width:78px;
+}
+
+
+

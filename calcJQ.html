@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	  <title>Калькулятор</title>
+	  <meta charset="utf-8" />	 
+	  <link rel="stylesheet" href="style.css" />
+	  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js"></script>
+	</head>
+	<body id="body">
+		<header>
+			<img src="webLogo.png" alt="Логотип" width="220" />
+			<h1>Основы Web-технологий</h1>
+			<nav>
+				<ul class="menu">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="web-tech.html">Web-технологии</a>
+						<ul class="submenu">
+							<li><a href="html5.html">HTML5</a></li>
+							<li><a href="css3.html">CSS3</a></li>
+							<li><a href="javascript.html">JavaScript</a></li>
+						</ul>
+					</li>
+					<li><a href="calc.html">Калькулятор</a></li>
+					<li><a href="test.html">Тест</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="main">
+				<form name="Calculator" autocomplete="off">
+					<table>
+						<tr>
+							<td colspan="5">
+								<input id="CalcDisp" type="text" value="" placeholder="0" />
+							</td>
+						</tr>
+						<tr>
+							<td><button id="b7" type="button">7</button></td>
+							<td><button id="b8" type="button">8</button></td>
+							<td><button id="b9" type="button">9</button></td>
+							<td><button id="dvd" type="button">/</button></td>
+							<td><button id="rst" type="button">C</button></td>
+						</tr>
+						<tr>
+							<td><button id="b4" type="button">4</button></td>
+							<td><button id="b5" type="button">5</button></td>
+							<td><button id="b6" type="button">6</button></td>
+							<td><button id="mltpl" type="button">*</button></td>
+							<td><button id="negtv" type="button">&#177;</button></td>
+						</tr>
+						<tr>
+							<td><button id="b1" type="button">1</button></td>
+							<td><button id="b2" type="button">2</button></td>
+							<td><button id="b3" type="button">3</button></td>
+							<td><button id="min" type="button">-</button></td>
+							<td rowspan="2"><button id="result" type="button">=</button></td>
+						</tr>
+						<tr>
+							<td colspan="2"><button id="zero" type="button">0</button>
+							</td><td><button id="point" type="button">.</button></td>
+							<td><button id="pls" type="button">+</button></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</main>
+		<footer>
+			<address>
+				<p><a href="mailto:mail_dim@ukr.net">Пишите: mail_dim@ukr.net</a></p>
+			</address>
+			<p>&copy; Бондарев Д.Я. 2016</p>
+		</footer>	
+		<script src="scriptCalcJQ.js"></script>	
+   </body>
+</html>
