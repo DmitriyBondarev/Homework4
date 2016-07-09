@@ -207,16 +207,28 @@ $('#b9').click(function () {
 $('#zero').click(function () {
         clickNumber('0');
     });
-
-rst.onclick = resetForm;
-
+//-------------------- operations:
+$('#rst').click(function () {
+        resetForm();
+    });
 $('#pls').click(function () {
         plus();
     });
-
-result.onclick = equal;
-dvd.onclick = divide;
-mltpl.onclick = multiply;
-min.onclick = minus;
-negtv.onclick = negativNum;
-point.onclick = clickPoint;
+$('#min').click(function () {
+        minus();
+    });
+$('#result').click(function () {
+        equal();
+    });
+$('#dvd').click(function () {
+        divide();
+    });
+$('#mltpl').click(function () {
+        multiply();
+    });
+$('#negtv').click(function () {
+        negativNum();
+    });
+$('#point').click(function () {
+        clickPoint();
+    });
